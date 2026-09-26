@@ -69,7 +69,7 @@ Cada vez que una base se reanuda, consume cómputo durante todo el retraso de au
 
 Con 1.000 visitas al mes (SUP-01), si las visitas están separadas por más de 15 minutos, cada una reanudaría la base de `project-service`. Ese volumen puede agotar la cuota antes de fin de mes, y la base quedaría pausada, dejando el catálogo público sin datos hasta el mes siguiente.
 
-Esto convierte la estrategia de lectura del sitio público en una decisión de arquitectura propia: el tráfico público no debería depender de que la base esté despierta. Se registrará en **ADR-0005** (por ejemplo, servir el catálogo público desde una instantánea estática generada al publicar, dejando la base solo para el panel de administración).
+Esto convierte la estrategia de lectura del sitio público en una decisión de arquitectura propia: el tráfico público no debería depender de que la base esté despierta. Se registrará en **ADR-0007** (por ejemplo, servir el catálogo público desde una instantánea estática generada al publicar, dejando la base solo para el panel de administración).
 
 ### Otras consecuencias
 
@@ -91,5 +91,5 @@ Esto convierte la estrategia de lectura del sitio público en una decisión de a
 
 **Pendientes**
 
-- ADR-0005: estrategia de lectura del sitio público frente a la cuota de cómputo.
+- ADR-0007: estrategia de lectura del sitio público frente a la cuota de cómputo.
 - Actualizar RNF-ESC-05 (retraso de autopausa de 15 minutos) y RNF-DIS-05 (sondas sin acceso a la base) en el SRS.

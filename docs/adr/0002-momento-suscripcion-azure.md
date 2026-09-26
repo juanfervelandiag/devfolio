@@ -1,6 +1,6 @@
 # ADR-0002: Diferir la creación de la suscripción de Azure hasta el final de F3
 
-- **Estado**: Aceptado
+- **Estado**: Reemplazado por ADR-0005
 - **Fecha**: 2026-09-22
 - **Work item**: Pendiente (Azure Boards aún no está configurado)
 - **Requerimientos relacionados**: RES-05, OBJ-4, RNF-ESC-03, RNF-ESC-05, RSK-04
